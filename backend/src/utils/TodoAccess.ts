@@ -1,6 +1,4 @@
 import * as AWS from "aws-sdk";
-import * as AWSXRay from "aws-xray-sdk";
-
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
 import {TodoItem} from "../models/TodoItem";
 import * as uuid from 'uuid'
@@ -11,12 +9,11 @@ const logger = createLogger('todoAccess');
 
 const bucketName = process.env.TODOITEM_S3_BUCKET_NAME;
 
-const XAWS = AWSXRay.captureAWS(AWS);
 
 export class TodoAccess {
 
   constructor(
-    private readonly docClient: DocumentClient = new XAWS.DynamoDB.DocumentClient(),
+    private readonly docClient: DocumentClient = new AWS.DynamoDB.DocumentClient(),
     private readonly todoTable = process.env.TODOITEM_TABLE,
     private readonly todoTableGsi = process.env.TODOITEM_TABLE_GSI ) {
   }

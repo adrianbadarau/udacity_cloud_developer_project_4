@@ -6,32 +6,19 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="initial deploy">
-      <change afterPath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exercises/lesson-1/starter-code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercises/lesson-1/starter-code/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/lambda/auth/auth0Authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/auth/auth0Authorizer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/createTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/createTodo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/deleteTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/deleteTodo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/getTodos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/getTodos.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/updateTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/updateTodo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/requests/CreateTodoRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/requests/CreateTodoRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/requests/UpdateTodoRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/requests/UpdateTodoRequest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +33,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/backend/package.json" />
   </component>
   <component name="ProjectId" id="1oK9QQxWBv97U5MpoBBGK3ZObBx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +61,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\adiba\code\udacity\cloud-developer\cloud-developer\course-04\project\c4-final-project-starter-code\backend\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\adiba\code\udacity\cloud-developer\project_4\backend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,6 +76,9 @@
       <workItem from="1613024399214" duration="3866000" />
       <workItem from="1613062282392" duration="4563000" />
       <workItem from="1613070045796" duration="1275000" />
+      <workItem from="1613072158198" duration="51000" />
+      <workItem from="1613072216739" duration="1451000" />
+      <workItem from="1613073849634" duration="1029000" />
     </task>
     <servers />
   </component>
@@ -97,5 +96,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613072199043">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613072199043" />
+    <state x="836" y="349" key="SettingsEditor" timestamp="1613072322484">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="836" y="349" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613072322484" />
   </component>
 </project>
