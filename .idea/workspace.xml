@@ -7,15 +7,19 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="initial deploy">
-      <change afterPath="$PROJECT_DIR$/backend/src/models/create-todo-item.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/models/update-todo-item.json" afterDir="false" />
+    <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="fixed code errors and added validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,19 +80,49 @@
       <workItem from="1613072158198" duration="51000" />
       <workItem from="1613072216739" duration="1451000" />
       <workItem from="1613073849634" duration="1029000" />
-      <workItem from="1613296749223" duration="4063000" />
+      <workItem from="1613296749223" duration="4468000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed code errors and added validation">
+      <created>1613301899924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613301899924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -99,6 +133,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../.." />
     </ignored-roots>
+    <MESSAGE value="fixed code errors and added validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code errors and added validation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613072199043">
@@ -109,17 +145,17 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1613301012156" />
-    <state x="0" y="126" key="DiffContextDialog" timestamp="1613075928934">
+    <state x="564" y="268" width="2752" height="1096" key="DiffContextDialog" timestamp="1613302091822">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="0" y="126" key="DiffContextDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613075928934" />
+    <state x="564" y="268" width="2752" height="1096" key="DiffContextDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613302091822" />
     <state x="836" y="349" key="SettingsEditor" timestamp="1613072322484">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="836" y="349" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613072322484" />
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1613075930990">
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1613301903560">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613075930990" />
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613301903560" />
   </component>
 </project>
