@@ -16,10 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="fixed code errors and added validation">
+    <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="re-enabled logging">
+      <change afterPath="$PROJECT_DIR$/backend/src/business-logic/todos.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/createTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/createTodo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/deleteTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/deleteTodo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/getTodos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/getTodos.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/updateTodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/updateTodo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/data-layer/TodoAccess.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +71,11 @@
     <property name="ts.external.directory.path" value="C:\Users\adiba\code\udacity\cloud-developer\project_4\backend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\project_4\backend\src\data-layer" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +90,7 @@
       <workItem from="1613072158198" duration="51000" />
       <workItem from="1613072216739" duration="1451000" />
       <workItem from="1613073849634" duration="1029000" />
-      <workItem from="1613296749223" duration="4468000" />
+      <workItem from="1613296749223" duration="5774000" />
     </task>
     <task id="LOCAL-00001" summary="fixed code errors and added validation">
       <created>1613301899924</created>
@@ -89,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613301899924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="re-enabled logging">
+      <created>1613302132181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613302132181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,17 +151,18 @@
       <path value="$PROJECT_DIR$/../../.." />
     </ignored-roots>
     <MESSAGE value="fixed code errors and added validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed code errors and added validation" />
+    <MESSAGE value="re-enabled logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-enabled logging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613072199043">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613072199043" />
-    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613301012156">
+    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613302562568">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1613301012156" />
+    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1613302562568" />
     <state x="564" y="268" width="2752" height="1096" key="DiffContextDialog" timestamp="1613302091822">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -153,9 +171,17 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="836" y="349" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613072322484" />
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1613301903560">
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1613302146406">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613301903560" />
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613302146406" />
+    <state x="940" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613302977470">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="940" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1613302977470" />
+    <state x="991" y="335" key="run.anything.popup" timestamp="1613302702754">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="991" y="335" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1613302702754" />
   </component>
 </project>

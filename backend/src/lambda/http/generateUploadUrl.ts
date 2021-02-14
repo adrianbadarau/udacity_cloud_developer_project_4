@@ -5,7 +5,7 @@ import * as uuid from 'uuid'
 import * as AWS from 'aws-sdk'
 import * as AWSXRay from 'aws-xray-sdk'
 import { createLogger } from '../../utils/logger'
-import { TodoAccess } from '../../utils/TodoAccess'
+import { TodoAccess } from '../../data-layer/TodoAccess'
 
 const logger = createLogger('generateUploadUrl')
 const XAWS = AWSXRay.captureAWS(AWS)
