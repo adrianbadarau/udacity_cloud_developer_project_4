@@ -11,14 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec88e6d-cd77-401b-9bdc-0549a434040f" name="Default Changelist" comment="initial deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/create-todo-item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/update-todo-item.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/serverless.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/lambda/http/generateUploadUrl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/utils/TodoAccess.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,7 @@
       <workItem from="1613072158198" duration="51000" />
       <workItem from="1613072216739" duration="1451000" />
       <workItem from="1613073849634" duration="1029000" />
+      <workItem from="1613296749223" duration="4063000" />
     </task>
     <servers />
   </component>
@@ -107,9 +105,21 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="797" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613072199043" />
+    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613301012156">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1074" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1613301012156" />
+    <state x="0" y="126" key="DiffContextDialog" timestamp="1613075928934">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="0" y="126" key="DiffContextDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1613075928934" />
     <state x="836" y="349" key="SettingsEditor" timestamp="1613072322484">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="836" y="349" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613072322484" />
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1613075930990">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613075930990" />
   </component>
 </project>
